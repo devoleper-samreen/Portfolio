@@ -1,0 +1,85 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  /*flex-direction: row;*/
+  /*justify-content: space-evenly;*/
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: space-around;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  
+}
+
+
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+
+.name{
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

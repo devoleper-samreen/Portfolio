@@ -1,0 +1,13 @@
+.made{
+    font-size: 25px;
+    background-color: var(--color-dark);
+    text-align: center;
+    padding: 25px 0;
+    letter-spacing: 2px;
+    color: white;
+  }
+  
+  .made span{
+    color: red;
+  }
+  

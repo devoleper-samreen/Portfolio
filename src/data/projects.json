@@ -1,0 +1,27 @@
+[
+    {
+      "title": "E-Commerce App",
+      "imageSrc": "projects/project.png",
+      "description": "Built a practical MERN e-commerce app – no frills, just functionality. Simple, secure, and user-focused. Experience online retail the way it should be.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Zoom App",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Full-stack To-Do App",
+      "imageSrc": "projects/project.png",
+      "description": "Developed a MERN Full Stack ToDo app with CRUD operations. Streamlined and practical – manage tasks effortlessly with this user-friendly application.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
+  
